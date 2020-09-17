@@ -1,0 +1,25 @@
+$background-color:yellowgreen;
+$sec-Color:white;
+$min-color:black;
+.navbar{
+   background-color: $background-color;
+    .navbar-brand{
+        font-size: 40px;
+        color: $sec-Color !important;
+        margin-left:-15px;
+        span{
+            font-weight: 600;
+        }
+    }
+    .nav-link{
+        font-size:20px ;
+        color:$sec-Color !important;
+        font-weight: 400;
+    }
+    a#navbardrop {
+        color: $min-color !important;
+    }
+    .fa{
+        color: $sec-Color;
+    }
+}

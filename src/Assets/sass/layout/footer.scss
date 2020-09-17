@@ -1,0 +1,21 @@
+$backg-color:#2d2d2d;
+.page-footer {
+    background-color: $backg-color;
+    h5 {
+    color: white;
+    }
+  
+  ul{
+    li {
+      margin-bottom: 10px;
+        a {
+      text-decoration: none;
+      color: #8c8c8c;
+      font-weight: 100;
+       &:hover {
+        color: yellowgreen;
+      }
+     }
+  }
+  }
+}
