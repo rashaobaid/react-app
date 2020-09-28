@@ -1,0 +1,31 @@
+.navbar {
+  background-color: yellowgreen;
+}
+
+.navbar .navbar-brand {
+  font-size: 40px;
+  color: white !important;
+  margin-left: -15px;
+}
+
+.navbar .navbar-brand span {
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  color: white !important;
+  font-weight: 400;
+}
+
+.navbar a#navbardrop {
+  color: black !important;
+}
+
+.navbar .fa {
+  color: white;
+}
+
+svg {
+  font-size: 31px;
+}

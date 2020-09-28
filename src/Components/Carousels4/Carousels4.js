@@ -74,16 +74,16 @@ class SimpleSlider4 extends Component {
       </Row>
       <Slider {...this.props.settings}>
           {this.state.items.map((item) => (
-        <div key={item.id}>
+          <div key={item.id}>
             <div className="card1">
                <img className="card1-img-top" src={item.image} width="100%" alt=""/ >
                   <div className="card1-body">
                       <p className="card1-title">{item.title}</p>
                       <p className="card1-text">{item.author}</p>
                       <p className="card1-text2">{item.reviewedBy}</p>
-                    </div>
+                   </div>
              </div>
-        </div>
+          </div>
         ))}
       </Slider>
       </div>

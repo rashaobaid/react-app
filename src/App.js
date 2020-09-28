@@ -11,7 +11,7 @@ class App extends Component {
         <div className="App">
         <BrowserRouter>
           <div>
-          <Header/>
+          <Header options={["Palestaine", "Russia","Lebanon" ,"Egypt","Turkey","Vanuatu"]}  skill= {["Front-End Developer", " Back-End Developer", "Solution Architect", "Project Manager"]}/>
           <Route exact component={Section} path="/" />
           <Route exact component={Book} path="/book" />
           </div>
