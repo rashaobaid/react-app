@@ -150,7 +150,7 @@ render(){
           <Link  className="nav-link" to="/"><li onClick={() => this.handleModalShowHide()}><AiOutlineUserAdd/></li></Link>
           <div>
                 <Modal show={this.state.showHide}>
-                    <Modal.Header closeButton onClick={() => this.handleModalShowHide()}>
+                <Modal.Header closeButton onClick={() => this.handleModalShowHide()}>
                     <Modal.Title >
                       <div className="text-center">Sign Up</div>
                       </Modal.Title>
